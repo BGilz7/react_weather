@@ -1,0 +1,7 @@
+.WeatherTitle {
+  text-align: center;
+  padding-top: 25vh;
+  color: #fff;
+  height: 75vh;
+  background-image: url('../../media/images/bg.jpg');
+}
