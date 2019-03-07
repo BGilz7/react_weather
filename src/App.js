@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Header from './components/header';
 import Weather from './views/weather';
 import Sample from './views/sample';
+import Racer from './views/racer';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' render={() => <Weather />} />
             <Route exact path='/sample' render={() => <Sample /> } />
+            <Route exact path='/racer' render={() => <Racer /> } />
           </Switch>
         </div>
       </div>
